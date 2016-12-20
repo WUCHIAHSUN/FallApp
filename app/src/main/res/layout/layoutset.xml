@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidbackgroundset">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="80px"
+        android:text="@string/btnSetBack"
+        android:id="@+id/btnSetBack"
+        android:background="#00000000"
+        android:src="@drawable/back"
+        android:scaleType="centerInside"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvSet1"
+        android:layout_alignEnd="@+id/tvSet1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvSet1"
+        android:id="@+id/tvSet1"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/btnSetBack"
+        android:layout_alignLeft="@+id/tvSet2"
+        android:layout_alignStart="@+id/tvSet2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvName"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvSet1"
+        android:layout_alignLeft="@+id/tvSet1"
+        android:layout_alignStart="@+id/tvSet1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvSet2"
+        android:id="@+id/tvSet2"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvName"
+        android:layout_alignLeft="@+id/tvOld"
+        android:layout_alignStart="@+id/tvOld" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvOld"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvSet2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvSet3"
+        android:id="@+id/tvSet3"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvOld"
+        android:layout_alignLeft="@+id/tvOld"
+        android:layout_alignStart="@+id/tvOld" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvAddress"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvSet3"
+        android:layout_alignLeft="@+id/tvSet3"
+        android:layout_alignStart="@+id/tvSet3" />
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="110px"
+        android:text="@string/btnChange"
+        android:id="@+id/btnChange"
+        android:layout_marginBottom="64dp"
+        android:background="#00000000"
+        android:src="@drawable/update"
+        android:scaleType="centerInside"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tvPhone3"
+        android:layout_alignStart="@+id/tvPhone3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvSet4"
+        android:id="@+id/tvSet4"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvAddress"
+        android:layout_alignLeft="@+id/tvAddress"
+        android:layout_alignStart="@+id/tvAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPhone"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvSet4"
+        android:layout_alignLeft="@+id/tvSet4"
+        android:layout_alignStart="@+id/tvSet4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPhone2"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvPhone"
+        android:layout_alignLeft="@+id/tvPhone"
+        android:layout_alignStart="@+id/tvPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvPhone3"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvPhone2"
+        android:layout_alignLeft="@+id/tvPhone2"
+        android:layout_alignStart="@+id/tvPhone2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edName"
+        android:layout_alignTop="@+id/tvSet1"
+        android:layout_toRightOf="@+id/tvSet1"
+        android:layout_toEndOf="@+id/tvSet1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edOld"
+        android:layout_alignTop="@+id/tvSet2"
+        android:layout_toRightOf="@+id/tvSet2"
+        android:layout_toEndOf="@+id/tvSet2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/edAddress"
+        android:layout_above="@+id/tvSet4"
+        android:layout_toRightOf="@+id/tvSet3"
+        android:layout_toEndOf="@+id/tvSet3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edPhone"
+        android:layout_alignTop="@+id/tvSet4"
+        android:layout_toRightOf="@+id/tvSet4"
+        android:layout_toEndOf="@+id/tvSet4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edPhone2"
+        android:layout_below="@+id/edPhone"
+        android:layout_alignLeft="@+id/edPhone"
+        android:layout_alignStart="@+id/edPhone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edPhone3"
+        android:layout_below="@+id/edPhone2"
+        android:layout_alignLeft="@+id/edPhone2"
+        android:layout_alignStart="@+id/edPhone2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="經度:"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/edPhone3"
+        android:layout_alignLeft="@+id/edPhone3"
+        android:layout_alignStart="@+id/edPhone3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="緯度:"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+</RelativeLayout>

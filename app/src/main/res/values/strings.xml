@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">FallApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnChangetype">選擇模式</string>
+    <string name="btnSet">設定</string>
+    <string name="btnRecord">紀錄</string>
+    <string name="btnBlue">連接</string>
+    <string name="btnAbout">關於</string>
+    <string name="btnSetBack">上頁</string>
+    <string name="btnRecordBack">上頁</string>
+    <string name="btnBlueBack">上頁</string>
+    <string name="btnAboutBack">上頁</string>
+    <string name="btnBlueOpen">開啟藍芽</string>
+    <string name="tvfall1">目前模式：</string>
+    <string name="tvfall2"></string>
+
+    <string name="tvSet1">姓名：</string>
+    <string name="tvSet2">年齡：</string>
+    <string name="tvSet3">地址：</string>
+    <string name="tvSet4">電話：</string>
+    <string name="btnReset">重整</string>
+    <string name="btnChange">修改</string>
+    <string name="btnFinish">確定</string>
+    <string name="btnBack">返回</string>
+
+    <string name="tvAbout1">CJCU 專案實作</string>
+    <string name="tvAbout2">關於作者：</string>
+    <string name="tvAbout3">組長：\n呂東穎</string>
+    <string name="tvAbout4">組員：\n吳佳勳\n劉冠均\n郭奕佑\n許智程</string>
+
+    <string name="tvBlueOP">是否要開啟藍芽</string>
+
+</resources>

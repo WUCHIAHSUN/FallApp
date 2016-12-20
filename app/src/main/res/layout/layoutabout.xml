@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/androidbackgroundabout">
+
+    <ImageButton
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:text="@string/btnAboutBack"
+        android:id="@+id/btnAboutBack"
+        android:background="#00000000"
+        android:src="@drawable/back"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvAbout1"
+        android:id="@+id/tvAbout1"
+        android:layout_marginTop="26dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/btnAboutBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvAbout2"
+        android:id="@+id/tvAbout2"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvAbout1"
+        android:layout_alignLeft="@+id/tvAbout1"
+        android:layout_alignStart="@+id/tvAbout1"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvAbout3"
+        android:id="@+id/tvAbout3"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvAbout2"
+        android:layout_alignLeft="@+id/tvAbout2"
+        android:layout_alignStart="@+id/tvAbout2"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvAbout4"
+        android:id="@+id/tvAbout4"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvAbout3"
+        android:layout_alignLeft="@+id/tvAbout3"
+        android:layout_alignStart="@+id/tvAbout3"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
